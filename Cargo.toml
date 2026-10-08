@@ -1,15 +1,8 @@
 [package]
-name = "cli-chat"
+name = "cli_chat"
 version = "0.1.0"
 edition = "2024"
 
-[[bin]]
-name = "server"
-path = "src/server.rs"
-
-[[bin]]
-name = "client"
-path = "src/client.rs"
-
 [dependencies]
 clap = { version = "4", features = ["derive"] }
+bitcode = { version = "0.6.9", features = ["derive"] }
